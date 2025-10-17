@@ -76,7 +76,7 @@ Benchmark 9 algorithms:
     * Inference latency per image
     * Model size (MB)
 * **Plot a Pareto trade-off**: Accuracy vs Latency vs Size.
-> Show framework is deployable even on limited hardware (CPU).
+> Is the framework deployable even on limited hardware (CPU)?.
 
 ***
 
