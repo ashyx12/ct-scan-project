@@ -5,9 +5,9 @@
 * **Content**: 10 classes (acute ischemic infarction, epidural hemorrhage, chronic ischemic infarction, etc.), ~10K CT images.
 * **Preprocessing**:
     * Grayscale conversion
-    * Resize to uniform dimensions (e.g., `128×128`)
+    * Resize to uniform dimensions (`128×128`)
     * Normalization (pixel intensity scaling)
-* **Split**: Train/test (e.g., `70:30` or stratified 5-fold CV).
+* **Split**: Train/test (stratified train-test split).
 
 ***
 
