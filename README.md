@@ -55,32 +55,3 @@ Benchmark 9 algorithms:
 * **Standard Deviation** across folds (stability)
 
 ***
-
-### **5. Analysis & Interpretability**
-* **Ablation Studies**: Compare individual feature families (HOG vs LBP vs GLCM vs Haralick vs Gabor vs Hybrid).
-* **Confusion Matrix**: For the best model → show per-class performance & misclassifications.
-* **Error Analysis**: Discuss common confusions (e.g., acute vs chronic infarction).
-
-***
-
-### **6. Efficiency (Deployability)**
-* **Measure**:
-    * Training time
-    * Inference latency per image
-    * Model size (MB)
-* **Plot a Pareto trade-off**: Accuracy vs Latency vs Size.
-> Is the framework deployable even on limited hardware (CPU)?.
-
-***
-
-### **7. Reliability (Calibration)**
-* Evaluate **Expected Calibration Error (ECE)** → are predicted probabilities trustworthy?
-* Apply **Temperature Scaling** to top models → show improvement in the calibration curve.
-
-***
-
-### **8. Robustness**
-* Stress test models with perturbed images:
-    * **Gaussian Noise** (simulates low-quality scans)
-    * **Brightness Variation** (simulates exposure differences)
-* Report **ΔMacro-F1** → which models degrade gracefully vs collapse.
