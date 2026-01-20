@@ -1,4 +1,4 @@
-# Explainable Machine Learning Framework for Multi-Class Cerebrovascular CT Lesion Classification
+# Machine Learning Framework for Multi-Class Cerebrovascular CT Lesion Classification
 
 ### **1. Dataset**
 * **Source**: Kaggle cerebrovascular lesion dataset (Macin et al., 2025).
@@ -63,14 +63,7 @@ Benchmark 9 algorithms:
 
 ***
 
-### **6. Explainability**
-* **SHAP Analysis** (on tree models: RF/XGB):
-    * Identify the most important features (e.g., GLCM contrast, entropy).
-    * Link to clinical sense: “Contrast relates to tissue density differences visible in hemorrhage.”
-
-***
-
-### **7. Efficiency (Deployability)**
+### **6. Efficiency (Deployability)**
 * **Measure**:
     * Training time
     * Inference latency per image
@@ -80,13 +73,13 @@ Benchmark 9 algorithms:
 
 ***
 
-### **8. Reliability (Calibration)**
+### **7. Reliability (Calibration)**
 * Evaluate **Expected Calibration Error (ECE)** → are predicted probabilities trustworthy?
 * Apply **Temperature Scaling** to top models → show improvement in the calibration curve.
 
 ***
 
-### **9. Robustness**
+### **8. Robustness**
 * Stress test models with perturbed images:
     * **Gaussian Noise** (simulates low-quality scans)
     * **Brightness Variation** (simulates exposure differences)
